@@ -1,3 +1,4 @@
+![data-sentry-logo.png](assets/logo/data-sentry-logo.png)
 # DataSentry
 
 **Automated Data Quality Analyzer**
@@ -259,3 +260,5 @@ Potential extensions include:
 ## License
 
 This project is currently under development.
+
+![colomai-logo.png](assets/logo/colomai-logo.png)

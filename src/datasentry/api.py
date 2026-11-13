@@ -168,7 +168,10 @@ async def process_csv(file: UploadFile) -> AnalysisReportResponse:
             detail="CSV contains no data rows"
         )
 
-    report = analyze_dataset(df)
+    report = analyze_dataset(
+        df,
+        duplicate_subset=["customer", "amount", "date", "status"],
+    )
 
     logger.info(
         "CSV analysis completed: %d rows, %d columns",
